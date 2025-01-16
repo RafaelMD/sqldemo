@@ -1,0 +1,7 @@
+CREATE TABLE Funcionario (
+    FuncionarioID INT IDENTITY(1,1) PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    CPF VARCHAR(14) NOT NULL,
+    Cargo VARCHAR(50) NOT NULL,
+    DataAdmissao DATE NOT NULL
+);

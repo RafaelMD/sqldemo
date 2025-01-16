@@ -1,0 +1,7 @@
+CREATE TABLE Produto (
+    ProdutoID INT IDENTITY(1,1) PRIMARY KEY,
+    NomeProduto VARCHAR(100) NOT NULL,
+    Descricao VARCHAR(250),
+    PrecoVenda DECIMAL(10,2) NOT NULL,
+    DataCadastro DATE NOT NULL DEFAULT GETDATE()
+);

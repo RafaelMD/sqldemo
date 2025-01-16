@@ -1,0 +1,5 @@
+CREATE DATABASE LojaDB;
+GO
+
+USE LojaDB;
+GO

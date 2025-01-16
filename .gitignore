@@ -1,0 +1,23 @@
+# Database backup files
+*.bak
+*.backup
+*.dbf
+*.mdf
+*.ldf
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.* 
